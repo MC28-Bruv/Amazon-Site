@@ -30,6 +30,7 @@ body {
     color: #febd69;
     cursor: pointer;
     text-align: right;
+    text-decoration: none;
 }
 
 .border-hover:hover {
