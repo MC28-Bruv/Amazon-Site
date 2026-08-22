@@ -154,6 +154,8 @@ body {
 .box-content {
     margin-left: 20px;
     margin-right: 20px;
+    text-decoration: none;
+    color: white;
 }
 
 .box-img {
