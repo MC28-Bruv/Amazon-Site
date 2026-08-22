@@ -25,6 +25,13 @@ body {
     cursor: pointer;
 }
 
+.download-text {
+    font-weight: bold;
+    color: #febd69;
+    cursor: pointer;
+    text-align: right;
+}
+
 .border-hover:hover {
     border: 1px solid white;
     padding: 5px;
