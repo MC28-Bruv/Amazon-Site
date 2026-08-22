@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e3e6e6;
+}
+
+/* NAVBAR */
+.navbar {
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.logo-text {
+    font-weight: bold;
+    color: #febd69;
+    cursor: pointer;
+}
+
+.border-hover:hover {
+    border: 1px solid white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.nav-first {
+    font-size: 0.75rem;
+    color: #cccccc;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* SEARCH BAR */
+.nav-search {
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.nav-search:hover {
+    border: 3px solid #f90;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    padding-left: 10px;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd69;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+    cursor: pointer;
+}
+
+/* SUB PANEL */
+.panel {
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+/* HERO SECTION */
+.hero-section {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(227,230,230,1)), url('https://unsplash.com');
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    font-size: 0.85rem;
+    width: 95%;
+    text-align: center;
+    padding: 12px 0;
+    margin-bottom: 25px;
+}
+
+.hero-msg a {
+    color: #007185;
+    text-decoration: none;
+}
+
+/* PRODUCT CARDS GRID */
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e3e6e6;
+    padding: 20px 0;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px 0px;
+    margin-top: 15px;
+}
+
+.box-content {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content a {
+    font-size: 0.85rem;
+    color: #007185;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 30px;
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.foot-panel2 {
+    background-color: #232f3e;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+ul p {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+ul a {
+    display: block;
+    color: #dddddd;
+    font-size: 0.85rem;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
